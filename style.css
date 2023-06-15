@@ -33,10 +33,10 @@ body{
     font-weight: 700;
     font-size: 14px;
     margin-right: 25px;
-    
+    transition: 0.5s;
 }
 .nav-item:hover{
-    color: rgb(180, 4, 224);
+    color:rgb(255, 4, 222)
 }
 .basket{
     position: relative;
@@ -56,6 +56,10 @@ body{
     width: 131px;
     height: 25px;
     font-size: 18px;
+    transition: 0.5s;
+}
+.num:hover{
+    color:rgb(255, 4, 222) ;
 }
 .phone-text{
     font-weight: 400;
@@ -72,4 +76,8 @@ body{
     padding: 14px 18px;
     font-weight: 700;
     font-size: 14px;
+    transition: 0.5s;
+}
+.button:hover{
+    color: rgb(0, 0, 0);
 }
