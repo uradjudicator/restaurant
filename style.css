@@ -1,31 +1,36 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     margin: 0;
     font-family: 'Open Sans';
 }
-.header .container{
+
+.container {
     width: 1110px;
     margin: 0 auto;
-    
+
 }
-.header{
+
+.header {
     background-image: url(img/hero\ image.jpg);
     height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.header-line{
+
+.header-line {
     padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.nav-item{
+
+.nav-item {
     color: #fff;
     text-decoration: none;
     width: 68px;
@@ -35,21 +40,25 @@ body{
     margin-right: 25px;
     transition: 0.5s;
 }
-.nav-item:hover{
-    color:#FF7400
+
+.nav-item:hover {
+    color: #FF7400
 }
-.basket{
+
+.basket {
     position: relative;
     border-right: 1px solid #FFFFFF;
     padding-right: 10px;
     height: 50px;
 }
-.img-logo{
+
+.img-logo {
     position: absolute;
     top: 18px;
     right: 7px;
 }
-.num{
+
+.num {
     color: #fff;
     text-decoration: none;
     font-weight: 700;
@@ -58,18 +67,22 @@ body{
     font-size: 18px;
     transition: 0.5s;
 }
-.num:hover{
-    color:#FF7400 ;
+
+.num:hover {
+    color: #FF7400;
 }
-.phone-text{
+
+.phone-text {
     font-weight: 400;
     font-size: 14px;
     color: #fff;
 }
-.phone-holder{
+
+.phone-holder {
     display: flex;
 }
-.button{
+
+.button {
     text-decoration: none;
     background-color: #FF7400;
     color: #fff;
@@ -78,17 +91,19 @@ body{
     font-size: 14px;
     transition: 0.5s;
 }
-.button:hover{
+
+.button:hover {
     color: rgb(0, 0, 0);
 }
 
 /* header down */
 
-.header-down{
+.header-down {
     position: relative;
-    
+
 }
-.header-down .title{
+
+.header-down .title {
     color: #D67E35;
     font-family: 'Tinos', serif;
     font-weight: 400;
@@ -99,13 +114,15 @@ body{
     margin-top: 222px;
     margin-bottom: 22px;
 }
-.header-down .suptitle{
+
+.header-down .suptitle {
     color: #fff;
     font-size: 18px;
     line-height: 24.5px;
     font-family: 'Open Sans';
 }
-.header-down .suptitle::after{
+
+.header-down .suptitle::after {
     position: absolute;
     content: '';
     height: 2px;
@@ -114,7 +131,8 @@ body{
     top: 127px;
     left: 56px;
 }
-.header-down .suptitle::before{
+
+.header-down .suptitle::before {
     position: absolute;
     content: '';
     height: 2px;
@@ -123,7 +141,8 @@ body{
     top: 127px;
     left: 308px;
 }
-.header-down .header-button{
+
+.header-down .header-button {
     text-decoration: none;
     background-color: #FF7400;
     padding: 14px 28px;
@@ -131,8 +150,52 @@ body{
     font-size: 14px;
     font-weight: 700;
     font-family: 'Open Sans';
-    transition: 0.5;
+    transition: 0.5s;
 }
-.header-down .header-button:hover{
+
+.header-down .header-button:hover {
     color: black;
+    top: -20px;
+}
+
+.cards .cards-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    font-family: 'Tinos', serif;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    width: 349px;
+    margin-right: 31px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0 10px;
+}
+
+.card-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 31px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+}
+.card-title span{
+    color: #D67E35;
+}
+.card-desc {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
 }
